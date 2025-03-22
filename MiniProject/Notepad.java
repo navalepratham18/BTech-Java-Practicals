@@ -147,7 +147,7 @@ public class Notepad extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 JOptionPane.showMessageDialog(
-                        Notepad.this, "Contact : 📷 @iiiaamnooob_18", "Help", JOptionPane.INFORMATION_MESSAGE);
+                        Notepad.this, "GitHub : @navalepratham18", "Help", JOptionPane.INFORMATION_MESSAGE);
             }
         });
     }
