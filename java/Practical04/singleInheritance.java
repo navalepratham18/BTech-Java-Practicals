@@ -4,7 +4,7 @@ class parent{
     }
 }
 
-public class singleInheritance extends parent {
+class singleInheritance extends parent {
     public static void main(String[] args) {
         parent p = new parent();
         p.example1();

@@ -29,8 +29,9 @@ public class jdbc_Demo {
 //		- Dynamic Input
 		System.out.print("ID : ");
 		int id = sc.nextInt();
+		sc.next();
 		System.out.print("Name : ");
-		String name = sc.nextLine();
+		String name = sc.next();
 		
 		pstat.setInt(1, id);
 		pstat.setString(2, name);
